@@ -35,7 +35,7 @@ image = np.zeros((500, 500, 3), dtype=np.uint8)
 ## Add text on the image using cv2.putText
 ```
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(image, 'Vinnusheh', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
+cv2.putText(image, 'Tanushree ', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 ```
 ## Display the input image
 ```
